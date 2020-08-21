@@ -23,7 +23,7 @@ class Snake():
         else:
             self.direction = point
 
-    snake movements control
+    #snake movements control
     def move(self):
         cur = self.get_head_position()
         x,y = self.direction
